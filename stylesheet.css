@@ -10,6 +10,7 @@ body {
     background-color: black;
     color: #FFD600;
     height: 300px;
+    width:1496px;
   }
   
 /*headerlogoはそもそも存在しない
@@ -18,11 +19,15 @@ body {
     font-size: 25px;
     padding: 150px 60px 0px 130px;
   }*/
-  
+
+  .header-logo{
+    padding: 20px 600px;
+  }
+
   .header-list li {
     float: left;
     font-size: 25px;
-    padding: 150px 130px 0px 60px;
+    padding: 20px 130px 0px 60px;
   }
 
 .li1 ::after {
@@ -75,7 +80,7 @@ body {
   }
   
   .contents {
-    height: 1440px;
+    height: 1500px;
   }
   
   .section-title {
@@ -106,7 +111,6 @@ body {
     font-size: 24px;
     display: inline-block;
     width: 535px;
-    margin-left: 20px;
     vertical-align: top;
     background-color:#504C4C;
     color:#FFD600;
