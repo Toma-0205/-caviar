@@ -10,7 +10,7 @@ body {
     background-color: black;
     color: #FFD600;
     height: 300px;
-    width:1496px;
+    width:auto;
   }
   
 /*headerlogoはそもそも存在しない
@@ -76,11 +76,11 @@ body {
 
   .main {
     padding: 0px 80px;
-    background-color: #363636;
+    background-color: #000000;
   }
   
   .contents {
-    height: 1500px;
+    height: 1620px;
   }
   
   .section-title {
@@ -104,6 +104,7 @@ body {
     vertical-align: top;*/
     margin-right: 40px;
     display: flex;
+    margin-top: 20px;
   }
   
   /* contents-itemの中のp要素のfont-size、margin-topを指定してください */
@@ -112,11 +113,11 @@ body {
     display: inline-block;
     width: 535px;
     vertical-align: top;
-    background-color:#504C4C;
     color:#FFD600;
     width:800px;
     text-align: center;
   }
+
   
   .footer {
     background-color:#B8A95B;
