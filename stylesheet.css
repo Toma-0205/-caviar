@@ -1,144 +1,103 @@
 body {
-    font-family: "Avenir Next";
-  }
+  font-family: "Avenir Next";
+  width: auto;
+}
   
-  li {
-    list-style: none;
-  }
+li {
+  list-style: none;
+}
   
-  .header {
-    background-color: black;
-    color: #FFD600;
-    height: 300px;
-    width:auto;
-  }
-  
-/*headerlogoはそもそも存在しない
-  .header-logo {
-    float: left;
-    font-size: 25px;
-    padding: 150px 60px 0px 130px;
-  }*/
-
-  .header-logo{
-    padding: 20px 600px;
-  }
-
-  .header-list li {
-    float: left;
-    font-size: 25px;
-    padding: 20px 130px 0px 60px;
-  }
-
-.li1 ::after {
-  content: "ABOUT JAPAN CAVIER";
-  font-size: 12px;
-  font-weight: bold;
-  color: #23cb99;
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
+.header {
+  background-color: black;
+  color: #FFD600;
+  height: 300px;
+  width:auto;
 }
 
-.li2 :after {
-  content: "QUALITY";
-  font-size: 12px;
-  font-weight: bold;
-  color: #23cb99;
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
+.header-logo{
+  padding: 20px 600px;
 }
 
-.li3 :after {
-  content: "ONLINE";
-  font-size: 12px;
-  font-weight: bold;
-  color: #23cb99;
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
+.header-list li {
+  float: left;
+  font-size: 25px;
+  padding: 20px 205px 0px 0px;
+  line-height:1.0;
+  text-align: center;
 }
 
-.li4 :after {
-  content: "RESTAURANT";
-  font-size: 12px;
-  font-weight: bold;
-  color: #23cb99;
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
+.br{
+  font-size: 15px;
 }
 
-  .main {
-    padding: 0px 80px;
-    background-color: #000000;
-  }
-  
-  .contents {
-    height: 1620px;
-  }
-  
-  .section-title {
-    border-bottom: 2px solid #dee7ec;
-    /* font-sizeを28pxにしてください */
-    font-size: 28px;
-    
-    /* padding-bottomを15pxにしてください */
-    padding-bottom: 15px;
-    
-    /* margin-bottomを50pxにしてください */
-    margin-bottom: 50px;
-    
-  }
-  
-  .contents-item {
-    float: left;
-   /* display: inline-block;
-    width: 300px;
-    margin-left: 20px;
-    vertical-align: top;*/
-    margin-right: 40px;
-    display: flex;
-    margin-top: 20px;
-  }
-  
-  /* contents-itemの中のp要素のfont-size、margin-topを指定してください */
-  .contents-item p {
-    font-size: 24px;
-    display: inline-block;
-    width: 535px;
-    vertical-align: top;
-    color:#FFD600;
-    width:800px;
-    text-align: center;
-  }
+.text{
+  font-size: 15px;
+  color: #fff;
+}
 
+.main {
+  padding: 0px 80px;
+  background-color: #000000;
+}
   
-  .footer {
-    background-color:#B8A95B;
-    color: #fff;
-    height: 120px;
-  }
+.contents {
+  height: 1705px;
+}
   
-  .footer-logo {
-    float: left;
-    text-align: center;
-    font-size: 32px;
-    margin-left: 500px;
-  }
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;  
+}
   
-  .footer-list {
-    float: right;
-    padding-right: 10px;
-  }
+.contents-item {
+  float: left;
+  margin-right: 20px;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 50px;
+}
   
-  .footer-list li {
-    padding-bottom: 20px;
-    text-align: center;
-  }
+.contents-item p {
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: top;
+  color:#FFD600;
+  width:600px;
+  text-align: center;
+}
+
+.btn{
+  color: #fff;
+  height: 40px;
+  width: 100px;
+  margin-top: 200px;
+  text-align: center;
+  border: 2px solid transparent;
+  border-color: #B8A95B #B8A95B #B8A95B #B8A95B;
+}
+
+.footer {
+  background-color:#B8A95B;
+  color: #fff;
+  height: 120px;
+}
+  
+.footer-logo {
+  float: left;
+  text-align: center;
+  font-size: 32px;
+  margin-left: 500px;
+}
+  
+.footer-list {
+  float: right;
+  padding-right: 10px;
+}
+  
+.footer-list li {
+  padding-bottom: 20px;
+  text-align: center;
+}
   
